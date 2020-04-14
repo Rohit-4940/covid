@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flag{
+    width: 140px;
+}
+.image{
+    width: 370px;
+    margin-top: 10px;
+}
+.texts{
+    color:black;
+}
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+    .image{
+        width: 100%;
+    }
+    .texts{
+        margin-top: -20px;
+        font-size: 20px;
+        color:black;
+        font-weight: bold;
+        text-align: center;
+    }
+}

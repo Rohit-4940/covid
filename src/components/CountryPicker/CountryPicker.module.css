@@ -1,0 +1,18 @@
+.formcontrol{
+    width: 45%;
+    margin-bottom: 30px !important;
+    border-top: turquoise;
+    border-bottom: turquoise;
+    font-size: 30px !important;
+}
+@media (max-width: 770px){
+    .formcontrol{
+        width:95%;
+    border-top:2px solid turquoise !important;
+    border-bottom:2px solid turquoise !important;
+    border-left:2px solid aqua !important;
+    border-right:2px solid aqua !important;
+    font-size: larger;
+    font-weight: bold;
+    }
+}

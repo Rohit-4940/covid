@@ -1,0 +1,20 @@
+.container{
+    margin: 50px 0;
+}
+
+.cardes{
+    margin: 0 2% !important;
+    width: 30% !important;
+}
+.infected{
+    border-bottom: 13px solid turquoise;
+    border-top: 5px solid turquoise;
+    border-right: 2px solid turquoise;
+    border-left: 2px solid turquoise;
+}
+
+@media (max-width: 770px){
+    .cardes{
+        margin: 4% 0 !important;
+    }
+}
